@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTAINER_HOME=~/.local/share/x11docker/teams
+CONTAINER_HOME=~/.local/share/docker/teams
 
 # check if teams container is running and use existing container if so
 if docker exec teams true > /dev/null 2>&1; then
