@@ -23,8 +23,8 @@ sed 's#/usr/bin/teams#teams#' -i ~/.local/share/applications/teams.desktop
 update-desktop-database ~/.local/share/applications/
 
 
-echo "checking for x11docker"
-if ! which x11docker &> /dev/null; then
-	echo "x11docker not found! Download x11docker and place it in your PATH:" >&2
-	echo "https://github.com/mviereck/x11docker" >&2
-fi
+#echo "checking for x11docker"
+#if ! which x11docker &> /dev/null; then
+#	echo "x11docker not found! Download x11docker and place it in your PATH:" >&2
+#	echo "https://github.com/mviereck/x11docker" >&2
+#fi
